@@ -1,0 +1,17 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.back {
+    margin-left: 4px;
+    padding: 5px;
+    border: 1px solid #fff;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #fff;
+}

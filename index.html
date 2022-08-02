@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/countries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light shadow fw-bold">
+    <div class="container-fluid d-flex justify-content-space-between">
+      <span class="navbar-brand mb-0 h1 safe ">Where in the world? </span>
+      <span class="navbar-brand mb-0 h1 safe">Dark mode</span>
+    </div>
+  </nav>
+  <div class="container">
+    <form class="d-flex mt-4 justify-content-space-between">
+      <input class="see me-2 shadow" type="search" placeholder="Search for a country" aria-label="Search">
+      <div class="dropdown ms-auto">
+        <a class="btn btn-white dropdown-toggle shadow href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          Filter by region
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Africa</a></li>
+          <li><a class="dropdown-item" href="#">America</a></li>
+          <li><a class="dropdown-item" href="#">Asia</a></li>
+          <li><a class="dropdown-item" href="#">Europe</a></li>
+          <li><a class="dropdown-item" href="#">Oceania</a></li>
+        </ul>
+      </div>
+    </form>
+
+
+    <div class="cardss row justt" row="button" onclick="oneCountry()">
+      <div class="col-lg-3 col-md-6">
+        <div class="card mt-5 shadow cart">
+          <div class="hait">
+            <img src="https://flagcdn.com/w320/ax.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/countries.js"></script>
+</body>
+
+</html>

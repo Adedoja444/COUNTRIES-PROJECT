@@ -13,5 +13,23 @@ body{
 
 .cart {
     border: 1px solid #fff;
-   
+}
+
+.hait, .card-img-top{
+    width: 259px;
+    height: 177px;
+}
+
+.card-body{
+    height: 195px;
+    text-align: left;
+}
+
+.safe {
+    font-weight: 1000;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
 }
