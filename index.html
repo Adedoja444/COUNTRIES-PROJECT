@@ -14,15 +14,20 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-light shadow fw-bold">
+  <nav class="navbar  shadow fw-bold">
     <div class="container-fluid d-flex justify-content-space-between">
       <span class="navbar-brand mb-0 h1 safe ">Where in the world? </span>
-      <span class="navbar-brand mb-0 h1 safe">Dark mode</span>
+      <div>
+        <img src="img/moon-fill.svg" alt="" class="moon" id="icon">
+        <span class="navbar-brand mb-0 h1 safe">Dark mode</span>
+      </div>
     </div>
   </nav>
   <div class="container">
     <form class="d-flex mt-4 justify-content-space-between">
-      <input class="see me-2 shadow" type="search" placeholder="Search for a country" aria-label="Search">
+     <div class="see me-2 shadow">
+      <input  class=" s-country" type="search" placeholder="Search for a country...">
+     </div>
       <div class="dropdown ms-auto">
         <a class="btn btn-white dropdown-toggle shadow href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Filter by region
@@ -38,7 +43,7 @@
     </form>
 
 
-    <div class="cardss row justt" row="button" onclick="oneCountry()">
+    <div class="cardss row justt" row="button">
       <div class="col-lg-3 col-md-6">
         <div class="card mt-5 shadow cart">
           <div class="hait">

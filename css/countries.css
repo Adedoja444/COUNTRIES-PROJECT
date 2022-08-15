@@ -1,26 +1,57 @@
-body{
+body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
+    color:var(--secondary-color)!important;
+    background-color: var(--primary-color) ;
 }
 
-.see {
+.s-country {
+    color:var(--secondary-color) !important;
+}
+
+.navbar {
+    color:var(--secondary-color);
+    background-color: var(--primary-color) ;
+}
+
+input[type="search"] {
+    background-color: var(--primary-color) ;
+    border-style: none;
+    padding: 5px 5px;
     margin-left: 4px;
-    padding: 5px;
-    min-width: 25%;
-    border: 1px solid #fff;
-    border-radius: 5px;
+    min-width: 35%;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
 }
 
 .cart {
-    border: 1px solid #fff;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color) ;
 }
 
-.hait, .card-img-top{
-    width: 259px;
+.forming {
+    color:var(--secondary-color) !important;
+}
+
+.dropdown-item {
+    color:var(--secondary-color) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color) ;
+}
+
+.btn {
+    color:var(--secondary-color) !important;
+}
+
+
+.card-img-top {
+    /* width: 259px; */
     height: 177px;
 }
 
-.card-body{
+.card-body {
     height: 195px;
     text-align: left;
 }
@@ -31,5 +62,26 @@ body{
 
 ul li {
     list-style-type: none;
-    text-align: left;
+    /* text-align: left; */
+}
+
+ul {
+    padding-inline-start: 0px !important;
+}
+
+.moon {
+    padding-bottom: 4px;
+}
+
+:root {
+    --primary-color:#fff;
+    --secondary-color:hsl(200, 15%, 8%);
+
+    /* --primary-color:red;
+    --secondary-color:yellow; */
+}
+
+.dark-theme  {
+    --primary-color:hsl(207, 26%, 17%);
+    --secondary-color:#fff;
 }

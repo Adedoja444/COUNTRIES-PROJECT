@@ -1,17 +1,47 @@
-body{
+body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 ul li {
     list-style-type: none;
 }
 
-.back {
-    margin-left: 4px;
-    padding: 5px;
-    border: 1px solid #fff;
-    width: 10%;
+.details {
+    padding-left: 2px;
+}
+
+.back-btn {
+    min-width: 10%;
     border-radius: 5px;
-    background-color: #fff;
+}
+
+button[type="button"] {
+    margin-left: 4px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    min-width: 10%;
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+.arrow {
+    margin: 0px 5px;
+}
+
+.moon {
+    padding-bottom: 4px;
+}
+
+:root {
+    --primary-color:#fff;
+    --secondary-color:hsl(200, 15%, 8%);
+}
+
+.dark-theme  {
+    --primary-color:hsl(207, 26%, 17%);
+    --secondary-color:#fff;
 }
