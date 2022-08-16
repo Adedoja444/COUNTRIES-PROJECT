@@ -85,3 +85,7 @@ ul {
     --primary-color:hsl(207, 26%, 17%);
     --secondary-color:#fff;
 }
+
+::placeholder {
+    color: var(--secondary-color);
+}
