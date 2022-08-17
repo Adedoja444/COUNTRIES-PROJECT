@@ -37,6 +37,11 @@ a {
     color: var(--secondary-color);
 }
 
+.og-page {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
 .moon {
     padding-bottom: 4px;
 }

@@ -3,42 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">g
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Countries</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/countries.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
   <nav class="navbar  shadow fw-bold">
     <div class="container-fluid d-flex justify-content-space-between">
       <span class="navbar-brand mb-0 h1 safe ">Where in the world? </span>
-      <div>
-        <img src="img/moon-fill.svg" alt="" class="moon" id="icon">
-        <span class="navbar-brand mb-0 h1 safe">Dark mode</span>
+      <div id="mode" role="button">
+        <i class="bi bi-brightness-high-fill" id="icon"></i>
+        <!-- <i class="bi moon-high-fill" id="icon"></i> -->
+        <!-- <img src="img/moon-fill.svg" alt="" class="moon" > -->
+        <span class="navbar-brand mb-0 h1 safe" id="mode-text">Light Mode</span>
       </div>
     </div>
   </nav>
   <div class="container">
-    <form class="d-flex mt-4 justify-content-space-between">
+    <form class="d-flex mt-4 justify-content-space-between regions">
      <div class="see me-2 shadow">
-      <input  class=" s-country" type="search" placeholder="Search for a country...">
+      <input  class="s-country" type="search" placeholder="Search for a country...">
      </div>
-      <div class="dropdown ms-auto">
+      <!-- <div class="dropdown ms-auto">
         <a class="btn btn-white dropdown-toggle shadow href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Filter by region
         </a>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Africa</a></li>
-          <li><a class="dropdown-item" href="#">America</a></li>
-          <li><a class="dropdown-item" href="#">Asia</a></li>
-          <li><a class="dropdown-item" href="#">Europe</a></li>
-          <li><a class="dropdown-item" href="#">Oceania</a></li>
+          <li><a class="dropdown-item" id="dropdown" href="#">Africa</a></li>
+          <li><a class="dropdown-item" id="dropdown" href="#">America</a></li>
+          <li><a class="dropdown-item" id="dropdown"  href="#">Asia</a></li>
+          <li><a class="dropdown-item" id="dropdown"  href="#">Europe</a></li>
+          <li><a class="dropdown-item" id="dropdown"  href="#">Oceania</a></li>
         </ul>
+      </div> -->
+      <div>
+        <select name="region" id="region" class="shadow carrier" >
+            <option value="null" id="selection">Filter by region</option>
+        </select>
       </div>
     </form>
 

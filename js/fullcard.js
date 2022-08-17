@@ -1,7 +1,7 @@
 let layout = document.querySelector('.walker');
 let url = "https://restcountries.com/v2/name";
 
-let icon = document.getElementById("icon");
+let icon = document.getElementById("sun");
 icon.onclick = function() {
     document.body.classList.toggle('dark-theme')
     if( document.body.classList.contains('dark-theme')) {
